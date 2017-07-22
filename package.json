@@ -1,0 +1,15 @@
+{
+  "name": "emoji-sentiment-for-youtube",
+  "version": "1.0.0",
+  "author": "Rian McGuire <rian@rian.id.au>",
+  "license": "MIT",
+  "scripts": {
+    "build": "browserify extension.js -o bundle.js"
+  },
+  "dependencies": {
+    "sentiment": "^4.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
+}
