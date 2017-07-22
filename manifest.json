@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Emoji sentiment for YouTube",
   "version": "1.0",
-  "description": "Replaces all YouTube comments with emoji that describe their content.",
+  "description": "Replaces all YouTube comments with emoji that match their sentiment.",
   "icons": {
     "48": "icons/emoji-48.png"
   },
