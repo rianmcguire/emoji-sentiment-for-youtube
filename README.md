@@ -4,6 +4,8 @@ Replaces all YouTube comments with emoji that match their sentiment.
 
 An extension for Firefox, Chrome, and any other WebExtension-compatible browser.
 
+* Firefox: https://addons.mozilla.org/en-US/firefox/addon/emoji-sentiment-for-youtube/
+
 ## Building
 
 * `yarn && yarn build`
