@@ -4,12 +4,13 @@
   "author": "Rian McGuire <rian@rian.id.au>",
   "license": "MIT",
   "scripts": {
-    "build": "browserify extension.js -o bundle.js"
+    "build": "mkdir -p build && browserify extension.js -o build/bundle.js && cp -r manifest.json icons build && node_modules/.bin/web-ext build --source-dir build --artifacts-dir . --overwrite-dest"
   },
   "dependencies": {
     "sentiment": "^4.0.0"
   },
   "devDependencies": {
-    "browserify": "^14.4.0"
+    "browserify": "^14.4.0",
+    "web-ext": "^1.10.1"
   }
 }
